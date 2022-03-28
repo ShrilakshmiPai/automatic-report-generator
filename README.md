@@ -7,3 +7,20 @@
 <img src="https://user-images.githubusercontent.com/82278285/146397609-005990fc-2d84-4d76-8696-13c31e4ca0ad.png" width="50">
   Automatic Medical Report Generation from Radiology Chest X-Ray using Deep learning strategy.
 </p>
+
+
+## Results
+
+Enoder decoder:
+
+| Evaluation method | bleu1 | bleu2  | bleu3 | bleu4 |
+| ------------- | ------------- | ------------- | ------------- | ----------- |
+| Greedy search  | 0.29002 | 0.283888  | 0.313192 | 0.350544 |
+| Beam search  | 0.219777  | 0.256711  | 0.320077  | 0.378822 |
+
+
+Attention mechanism:
+
+| Evaluation method | bleu1 | bleu2  | bleu3 | bleu4 |
+| ------------- | ------------- | ------------- | ------------- | ----------- |
+| Greedy search  | 0.219777 | 0.256711  | 0.320077 | 0.378822 |
