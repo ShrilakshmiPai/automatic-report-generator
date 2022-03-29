@@ -16,7 +16,7 @@ Enoder decoder:
 | Evaluation method | bleu1 | bleu2  | bleu3 | bleu4 |
 | ------------- | ------------- | ------------- | ------------- | ----------- |
 | Greedy search  | 0.29002 | 0.283888  | 0.313192 | 0.350544 |
-| Beam search  | 0.219777  | 0.256711  | 0.320077  | 0.378822 |
+| Beam search  | 0.295026  | 0.289935  | 0.318953  | 0.356116 |
 
 
 Attention mechanism:
